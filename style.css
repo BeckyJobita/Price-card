@@ -1,0 +1,109 @@
+html {
+  font-family: 'Karla', serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+body {
+  padding: 25px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h4, h4, p {
+  margin: 0;
+}
+h3 {
+  color: hsl(179, 62%, 43%);
+}
+#card {
+  width: 700px;
+  height: 100%;
+  box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  overflow: hidden; /*this helps the children containers in the bottom section from breaking out of the set boundaries when border radius is used*/
+}
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+}
+#top-section h4 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 10px;
+}
+#top-section p {
+  color: hsl(218, 22%, 67%);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+#bottom-section {
+  display: flex;
+  width: 100%;
+  height: 55%;
+}
+#bottom-left-section, #bottom-right-section {
+  flex: 30%;
+  width: 50%;
+  height: 200px;
+  padding: 25px;
+}
+#bottom-left-section {
+ background-color: hsl(179, 62%, 43%);
+ display: inline-block;
+}
+#bottom-left-section h4 {
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+#bottom-left-section p {
+  color: hsl(204, 43%, 93%);
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#bottom-right-section {
+  background-color: hsl(179, 57%, 54%);
+  color: hsl(204, 43%, 93%);
+  display: inline-block;
+}
+#bottom-right-section h4{
+  font-size: 0.9rem;
+}
+#bottom-right-section li{
+  margin-bottom: 3px;
+  font-size: 0.8rem;
+}
+button {
+  width: 100%;
+  height: 37px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+button:hover {
+  background-color: hsl(71, 98%, 43%);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#price-frequency, #price {
+  display: inline-block;
+}
+#price {
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+  margin-right: 10px;
+}
+#price-frequency {
+  position: relative;
+  top: -7px;
+  opacity: 0.5;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
