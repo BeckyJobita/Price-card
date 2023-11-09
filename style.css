@@ -38,19 +38,17 @@ h3 {
   font-size: 0.9rem;
 }
 #bottom-section {
-  display: flex;
   width: 100%;
   height: 55%;
 }
 #bottom-left-section, #bottom-right-section {
-  flex: 30%;
   width: 50%;
   height: 100%;
   padding: 25px;
+  display: inline-block;
 }
 #bottom-left-section {
  background-color: hsl(179, 62%, 43%);
- display: inline-block;
 }
 #bottom-left-section h4 {
   color: hsl(204, 43%, 93%);
@@ -66,18 +64,17 @@ h3 {
 #bottom-right-section {
   background-color: hsl(179, 57%, 54%);
   color: hsl(204, 43%, 93%);
-  display: inline-block;
 }
 #bottom-right-section h4{
   font-size: 0.9rem;
 }
 #bottom-right-section li{
   margin-bottom: 3px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 button {
   width: 100%;
-  height: 37px;
+  height: 31px;
   background-color: hsl(71, 73%, 54%);
   color: white;
   margin-top: 15px;
@@ -107,4 +104,13 @@ button:hover {
 ul {
   padding: 0;
   list-style: none;
+}
+@media (max-width: 650px) {
+  #bottom-left-section, #bottom-right-section {
+    width: 100%;
+  }
+  #card {
+    height: auto;
+    width: 100%;
+  }
 }
