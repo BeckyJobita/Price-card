@@ -106,14 +106,8 @@ ul {
   list-style: none;
 }
 @media (max-width: 650px) {
-  #bottom-left-section {
+  #card, #bottom-left-section, #bottom-right-section {
     width: 100%;
-  }
-  #bottom-right-section {
-    width: 100%;
-  }
-  #card {
     height: auto;
-    width: 100%;
   }
 }
