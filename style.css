@@ -111,6 +111,6 @@ ul {
   }
   #card {
     height: auto;
-    width: auto;
+    width: 100%;
   }
 }
