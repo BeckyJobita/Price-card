@@ -67,6 +67,7 @@ h2, h4, p {
 
 #top-section p {
   color: #98a6bd;
+  margin-bottom: 3px;
 }
 
 button {
@@ -119,6 +120,7 @@ ul {
   list-style: none;
   font-size: 0.8rem;
   opacity: 0.8;
+  margin-bottom: 3px;
 }
 
 @media (max-width: 650px) {
